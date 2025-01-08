@@ -1,0 +1,43 @@
+    body {
+        background: url(./New\ bg.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .container-box {
+        width: 20%;
+        text-align: center;
+        margin: 10% 38%;
+        background: hwb(66 16% 19%);
+        padding: 12px 2%;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    #input-city {
+        width: 100%;
+        padding: 10px 0px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        background: wheat;
+        text-align: center;
+        margin-bottom: 10px;
+        font-weight: 900;
+        text-transform: capitalize;
+    }
+
+    #submit-btn {
+        width: 50%;
+        background: wheat;
+        padding: 10px 0px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    p {
+        font-weight: 600;
+    }
